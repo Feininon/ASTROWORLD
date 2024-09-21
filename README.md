@@ -37,6 +37,7 @@ You can Download the Dataset here at this Link:
 https://www.kaggle.com/datasets/ejlok1/cremad
 
 Dataset Information:
+
 CREMA-D is a data set of 7,442 original clips from 91 actors. These clips were from 48 male and 43 female actors between the ages of 20 and 74 coming from a variety of races and ethnicities (African America, Asian, Caucasian, Hispanic, and Unspecified).
 
 Actors spoke from a selection of 12 sentences. The sentences were presented using one of six different emotions (Anger, Disgust, Fear, Happy, Neutral and Sad) and four different emotion levels (Low, Medium, High and Unspecified).
@@ -44,6 +45,7 @@ Actors spoke from a selection of 12 sentences. The sentences were presented usin
 Participants rated the emotion and emotion levels based on the combined audiovisual presentation, the video alone, and the audio alone. Due to the large number of ratings needed, this effort was crowd-sourced and a total of 2443 participants each rated 90 unique clips, 30 audio, 30 visual, and 30 audio-visual. 95% of the clips have more than 7 ratings.
 
 Description:
+
 Text Data Files:
 SentenceFilenames.csv - list of movie files used in study
 finishedEmoResponses.csv - the first emotional response with timing.
@@ -160,13 +162,16 @@ Unspecified (XX)
 The suffix of the filename is based on the type of file, flv for flash video used for presentation of both the video only, and the audio-visual clips. mp3 is used for the audio files used for the audio-only presentation of the clips. wav is used for files used for computational audio processing.
 
 b.Extraction Tools
+
 1.OpenSMILE:
+
 You can install it in Python by,
 !pip install opensmile
 For more information refer this link:
 https://audeering.github.io/opensmile-python/
 
 2.Librosa:
+
 You can install it in Python by,
 !pip install librosa
 For more information refer this link:
@@ -175,11 +180,17 @@ https://librosa.org/doc/latest/index.html
 
 
 RAVDESS_OpenSMILE_RNN(LSTM)
+
 01.audioTocsv.py - converting .wav file to .csv.
+
 02.extractingInfoFromThemNamesMerging.py - labeling the Emotions and Intensity from the filename.
+
 03.RNNmodelTrainSave.py - training the RNN(LSTM) model and saving it.
+
 04.predictionINTE.py - predicts the Intensity of the given audio.
+
 05.predictionEMO.py - predicts the Emotion of the given audio.
+
 all the .wav file is just for samples audio.
 
 
