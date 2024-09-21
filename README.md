@@ -205,9 +205,12 @@ You can install it in Python by,
 For more information refer this link:
 https://librosa.org/doc/latest/index.html
 
+Swarm Intelligence : it refers to the intelligent behaviors of ants, birds, and other swarm animals that achieve their goals through the interaction between individuals or with the environment in the process of migration and foraging.
+
+IDEA: To Create Multiple High Accuracy Model and then Combining Thier Output and Do the Detection. So the accuracy will Very Constant.
 
 
-RAVDESS_OpenSMILE_RNN(LSTM)
+RAVDESS_OpenSMILE_RNN(LSTM):
 
 01.audioTocsv.py - converting .wav file to .csv.
 
