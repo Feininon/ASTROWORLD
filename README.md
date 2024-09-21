@@ -180,7 +180,7 @@ RAVDESS_OpenSMILE_RNN(LSTM)
 03.RNNmodelTrainSave.py - training the RNN(LSTM) model and saving it.
 04.predictionINTE.py - predicts the Intensity of the given audio.
 05.predictionEMO.py - predicts the Emotion of the given audio.
-all the .wav file is just for samples audio
+all the .wav file is just for samples audio.
 
 
 
