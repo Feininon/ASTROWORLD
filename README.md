@@ -209,6 +209,10 @@ Swarm Intelligence : it refers to the intelligent behaviors of ants, birds, and 
 
 IDEA: To Create Multiple High Accuracy Model and then Combining Thier Output and Do the Detection. So the accuracy will Very Constant.
 
+FOLDERS:
+
+Filename Format:
+[DatasetUsed]_[ExtractionToolUsed]_[ModelUsedToTrain]
 
 RAVDESS_OpenSMILE_RNN(LSTM):
 
@@ -223,6 +227,35 @@ RAVDESS_OpenSMILE_RNN(LSTM):
 05.predictionEMO.py - predicts the Emotion of the given audio.
 
 all the .wav file is just for samples audio.
+
+CREMA-D_OpenSMILE_GRU:
+
+-[FolderName]_training - Training and Saving the Model.
+
+-[FolderName]_prediction - Load the Model and Predict the Emotion of the Given Audio.
+
+CREMA-D_OpenSMILE_FNN:
+
+-[FolderName]_training - Training and Saving the Model.
+
+-[FolderName]_prediction - Load the Model and Predict the Emotion of the Given Audio.
+
+CREMA-D_OpenSMILE_LSTM:
+
+-[FolderName]_training - Training and Saving the Model.
+
+-[FolderName]_prediction - Load the Model and Predict the Emotion of the Given Audio.
+
+RAVDESS_OpenSMILE_wav2vec:
+
+-[FolderName]_training - Training and Saving the Model.
+
+-[FolderName]_prediction - Load the Model and Predict the Emotion of the Given Audio.
+
+
+
+
+
 
 
 
